@@ -1,6 +1,3 @@
-/* =========================
-   GENERAL PAGE SETTINGS
-   ========================= */
 
 :root {
     --sidebar-width: 42%;
@@ -30,11 +27,6 @@ body {
     font-family: Georgia, "Times New Roman", serif;
 }
 
-
-/* =========================
-   LEFT SIDEBAR
-   ========================= */
-
 .sidebar {
     flex: 0 0 var(--sidebar-width);
     width: var(--sidebar-width);
@@ -49,9 +41,6 @@ body {
 
     overflow: hidden;
 }
-
-
-/* Introduction */
 
 .intro {
     flex-shrink: 0;
@@ -75,10 +64,6 @@ body {
 }
 
 
-/* =========================
-   PROJECT IMAGE GRID
-   ========================= */
-
 .project-grid {
     flex: 1;
     min-height: 0;
@@ -89,9 +74,6 @@ body {
 
     gap: clamp(10px, 1.2vw, 20px);
 }
-
-
-/* Each image is also a button */
 
 .project-card {
     position: relative;
@@ -116,9 +98,6 @@ body {
     text-align: left;
 }
 
-
-/* Image itself */
-
 .project-card img {
     display: block;
 
@@ -127,9 +106,6 @@ body {
 
     object-fit: cover;
 }
-
-
-/* Black hover overlay */
 
 .overlay {
     position: absolute;
@@ -150,24 +126,16 @@ body {
     transition: opacity var(--fade-speed) ease;
 }
 
-
-/* Fade in on hover; no movement */
-
 .project-card:hover .overlay,
 .project-card:focus-visible .overlay {
     opacity: 0.88;
 }
-
-
-/* Project title */
 
 .project-title {
     font-size: clamp(18px, 1.7vw, 30px);
     line-height: 1.1;
 }
 
-
-/* Short description */
 
 .project-description {
     font-family: Arial, sans-serif;
@@ -176,18 +144,10 @@ body {
     color: #d0d0d0;
 }
 
-
-/* Keyboard focus */
-
 .project-card:focus-visible {
     outline: 2px solid white;
     outline-offset: -4px;
 }
-
-
-/* =========================
-   RIGHT CONTENT PANEL
-   ========================= */
 
 .content-panel {
     flex: 1;
@@ -203,11 +163,6 @@ body {
     color: var(--text-color);
 }
 
-
-/* =========================
-   CONTENT SECTIONS
-   ========================= */
-
 .content-section {
     width: 100%;
     max-width: 900px;
@@ -218,22 +173,13 @@ body {
     transition: opacity var(--fade-speed) ease;
 }
 
-
-/* Visible section */
-
 .content-section.active {
     opacity: 1;
 }
 
-
-/* Hidden sections must not take up space */
-
 .content-section[hidden] {
     display: none;
 }
-
-
-/* Small label above heading */
 
 .eyebrow {
     margin: 0 0 1.5rem;
@@ -245,9 +191,6 @@ body {
     color: var(--muted-color);
 }
 
-
-/* Main heading */
-
 .content-section h2 {
     margin: 0 0 1rem;
 
@@ -258,9 +201,6 @@ body {
     letter-spacing: -0.04em;
 }
 
-
-/* Introductory sentence */
-
 .lead {
     max-width: 700px;
     margin: 0 0 2.5rem;
@@ -270,9 +210,6 @@ body {
 
     color: #555555;
 }
-
-
-/* Main paragraphs */
 
 .body-copy {
     max-width: 700px;
@@ -285,9 +222,6 @@ body {
     margin: 0 0 1.5rem;
 }
 
-
-/* Subheadings */
-
 .body-copy h3 {
     margin: 2.5rem 0 0.6rem;
 
@@ -295,18 +229,10 @@ body {
     font-weight: 400;
 }
 
-
-/* Links */
-
 a {
     color: inherit;
     text-underline-offset: 4px;
 }
-
-
-/* =========================
-   PROJECT DETAIL IMAGE
-   ========================= */
 
 .feature-image {
     display: block;
@@ -331,11 +257,6 @@ a {
     object-fit: cover;
     background-color: #cccccc;
 }
-
-
-/* =========================
-   RETURN BUTTON
-   ========================= */
 
 .return-button {
     margin-top: 3rem;

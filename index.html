@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- LEFT PANEL -->
+    <aside class="sidebar">
+        <header class="intro">
+            <h1>Hi! I'm Ema.</h1>
+            <p>
+                I'm an aspiring game developer, programmer and artist. I enjoy experimenting 
+                with game design and going into the unfamiliar.
+            </p>
+        </header>
+
+        <nav class="project-grid" aria-label="Portfolio projects">
+
+            <!-- FIRST DAY PROTOCOL -->
+            <button class="project-card" data-project="project1" aria-label="View First Day Protocol">
+                <img src="images/project1.png" alt="First Day Protocol">
+                <span class="overlay">
+                    <span class="project-title">First Day Protocol</span>
+                    <span class="project-description">A short description of this project.</span>
+                </span>
+            </button>
+
+            <!-- RATCON -->
+            <button class="project-card" data-project="project2" aria-label="View Project Two">
+                <img src="images/project2.png" alt="Project Two">
+                <span class="overlay">
+                    <span class="project-title">Project Two</span>
+                    <span class="project-description">A short description of this project.</span>
+                </span>
+            </button>
+
+            <!-- MY HEART BELONGS HERE -->
+            <button class="project-card" data-project="project3" aria-label="View Project Three">
+                <img src="images/project3.png" alt="Project Three">
+                <span class="overlay">
+                    <span class="project-title">Project Three</span>
+                    <span class="project-description">A short description of this project.</span>
+                </span>
+            </button>
+
+            <!-- SOULBLADE -->
+            <button class="project-card" data-project="project4" aria-label="View Project Four">
+                <img src="images/project4.png" alt="Project Four">
+                <span class="overlay">
+                    <span class="project-title">Project Four</span>
+                    <span class="project-description">A short description of this project.</span>
+                </span>
+            </button>
+
+            <!-- THE LAST PILGRIM -->
+            <button class="project-card" data-project="project5" aria-label="View Project Five">
+                <img src="images/project5.png" alt="Project Five">
+                <span class="overlay">
+                    <span class="project-title">Project Five</span>
+                    <span class="project-description">A short description of this project.</span>
+                </span>
+            </button>
+
+            <button class="project-card" data-project="project6" aria-label="View Project Six">
+                <img src="images/project6.png" alt="Project Six">
+                <span class="overlay">
+                    <span class="project-title">Project Six</span>
+                    <span class="project-description">A short description of this project.</span>
+                </span>
+            </button>
+
+        </nav>
+    </aside>
+
+
+    <!-- RIGHT PANEL -->
+    <main class="content-panel" id="content-panel">
+
+        <!-- DEFAULT -->
+        <section class="content-section active" id="about">
+
+            <p class="eyebrow">MYIQIS9 / ABOUT</p>
+
+            <h2>About me</h2>
+
+            <p class="lead">
+                I'm Ema. I love making games and creating unique experiences.
+            </p>
+
+            <div class="body-copy">
+                <p>
+                    My love is for programming. I like building systems from the ground up in code 
+                    and seeing them all connect. I have created dialogue, battle, inventory, and item
+                    or resource management systems. I want to make games that are thrilling and unusual, but
+                    also allow the player careful planning over a wide range of mechanics.
+                </p>
+
+                <h3>Background</h3>
+                <p>
+                    I have a DEC in Computer Science and a Bachelor's in Computation Arts 
+                    at Concordia University. I have also studied abroad 
+                    at Seinan Gakuin University in Fukuoka, Japan.
+                </p>
+
+                <p>
+                    I am a recipient of the Behaviour Interactive Research Chair Bursary in Game Design.
+                    I have participated in many game jams, including the Brackeys Game Jam and GamerELLA.
+                </p>
+
+                <h3>Skillset</h3>
+                <p>
+                    I have made games in Unity 5 & 6, Unreal Engine 5, GameMaker, and pure JS.
+                    <br>
+                    I know C++, C#, Javascript, Java, and Python.
+                    <br>
+                    I also have 3D modeling experience in both Blender and Maya.
+                    <br>
+                    I am not a solo developer — I am at my most comfortable working with others.
+                </p>
+
+                <h3>Contact</h3>
+                <p>
+                    <a href="https://myiqis9.itch.io/">myiqis9 on itch.io</a> | <a href="https://github.com/myiqis9/">myiqis9 on GitHub</a>
+                    <a href="mailto:emv.rad@gmail.com">emv.rad@gmail.com</a>
+                    <br>
+                    pathologic2 on Discord
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- FIRST DAY PROTOCOL -->
+        <section class="content-section" id="project1" hidden>
+
+            <p class="eyebrow">MYIQIS9 / 01</p>
+            <h2>First Day Protocol</h2>
+            <p class="lead">A short introduction to Project One.</p>
+
+            <!-- VIDEO -->
+            <img class="feature-image" src="images/project-1.jpg" alt="Project One">
+
+            <div class="body-copy">
+                <h3>Overview</h3>
+                <p>
+                    Describe what this project is, its purpose, and what
+                    you wanted to accomplish.
+                </p>
+
+                <h3>My Contribution</h3>
+                <p>
+                    Explain your role, the tools you used, and the work
+                    you personally completed.
+                </p>
+
+                <h3>Process and Results</h3>
+                <p>
+                    Describe your approach, challenges you encountered,
+                    and the final outcome.
+                </p>
+            </div>
+
+            <button class="return-button">← Go back?</button>
+
+        </section>
+
+
+        <!-- PROJECT TWO -->
+        <section class="content-section" id="project2" hidden>
+
+            <p class="eyebrow">MYIQIS9 / 02</p>
+            <h2>Project Two</h2>
+            <p class="lead">A short introduction to Project Two.</p>
+
+            <img class="feature-image" src="images/project-2.jpg" alt="Project Two">
+
+            <div class="body-copy">
+                <h3>Overview</h3>
+                <p>Describe the project, its goals, and the final result.</p>
+
+                <h3>My Contribution</h3>
+                <p>Explain your responsibilities and the tools you used.</p>
+
+                <h3>Process and Results</h3>
+                <p>Describe your approach and what you learned.</p>
+            </div>
+
+            <button class="return-button">← Go back?</button>
+
+        </section>
+
+
+        <!-- PROJECT THREE -->
+        <section class="content-section" id="project3" hidden>
+
+            <p class="eyebrow">MYIQIS9 / 03</p>
+            <h2>Project Three</h2>
+            <p class="lead">A short introduction to Project Three.</p>
+
+            <img class="feature-image" src="images/project-3.jpg" alt="Project Three">
+
+            <div class="body-copy">
+                <h3>Overview</h3>
+                <p>Describe the project, its goals, and the final result.</p>
+
+                <h3>My Contribution</h3>
+                <p>Explain your responsibilities and the tools you used.</p>
+
+                <h3>Process and Results</h3>
+                <p>Describe your approach and what you learned.</p>
+            </div>
+
+            <button class="return-button">← Go back?</button>
+
+        </section>
+
+
+        <!-- PROJECT FOUR -->
+        <section class="content-section" id="project4" hidden>
+
+            <p class="eyebrow">MYIQIS9 / 04</p>
+            <h2>Project Four</h2>
+            <p class="lead">A short introduction to Project Four.</p>
+
+            <img class="feature-image" src="images/project-4.jpg" alt="Project Four">
+
+            <div class="body-copy">
+                <h3>Overview</h3>
+                <p>Describe the project, its goals, and the final result.</p>
+
+                <h3>My Contribution</h3>
+                <p>Explain your responsibilities and the tools you used.</p>
+
+                <h3>Process and Results</h3>
+                <p>Describe your approach and what you learned.</p>
+            </div>
+
+            <button class="return-button">← Go back?</button>
+
+        </section>
+
+
+        <!-- PROJECT FIVE -->
+        <section class="content-section" id="project5" hidden>
+
+            <p class="eyebrow">MYIQIS9 / 05</p>
+            <h2>Project Five</h2>
+            <p class="lead">A short introduction to Project Five.</p>
+
+            <img class="feature-image" src="images/project-5.jpg" alt="Project Five">
+
+            <div class="body-copy">
+                <h3>Overview</h3>
+                <p>Describe the project, its goals, and the final result.</p>
+
+                <h3>My Contribution</h3>
+                <p>Explain your responsibilities and the tools you used.</p>
+
+                <h3>Process and Results</h3>
+                <p>Describe your approach and what you learned.</p>
+            </div>
+
+            <button class="return-button">← Go back?</button>
+
+        </section>
+
+
+        <!-- PROJECT SIX -->
+        <section class="content-section" id="project6" hidden>
+
+            <p class="eyebrow">MYIQIS9 / 06</p>
+            <h2>Project Six</h2>
+            <p class="lead">A short introduction to Project Six.</p>
+
+            <img class="feature-image" src="images/project-6.jpg" alt="Project Six">
+
+            <div class="body-copy">
+                <h3>Overview</h3>
+                <p>Describe the project, its goals, and the final result.</p>
+
+                <h3>My Contribution</h3>
+                <p>Explain your responsibilities and the tools you used.</p>
+
+                <h3>Process and Results</h3>
+                <p>Describe your approach and what you learned.</p>
+            </div>
+
+            <button class="return-button">← Go back?</button>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
